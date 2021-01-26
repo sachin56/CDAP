@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
     private final DocumentReference documentReferenceUser=db.collection("users")
             .document(firebaseAuth.getCurrentUser().getUid());
 
-
-
     ImageButton ImageNavigation ;
 
     @Override
